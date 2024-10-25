@@ -12,6 +12,7 @@ public class BillCounter
 		customer.setBill(1500);
 		customer.setContactnumber(9876543210L);		
 		customer.customerDetails();
+		
 		System.out.println("*****************************regularcustomer***********************************");
 		RegularCustomer regularcustomer = new RegularCustomer();
 		regularcustomer.setCustname("Smith");

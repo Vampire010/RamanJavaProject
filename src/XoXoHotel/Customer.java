@@ -7,6 +7,18 @@ public class Customer
 	private double Bill;
 	private long contactnumber;
 	
+	//Constructer
+	/*public Customer()
+	{
+		System.out.println("*****************************Non Parametraized***********************************");
+
+	}
+	
+	public Customer(int custid, String custname, String cust)
+	{
+		System.out.println("*****************************Parametraized***********************************");
+	}*/
+	
 	public String getCustname()
 	{
 		return Custname;
@@ -48,12 +60,18 @@ public class Customer
 		System.out.println("Contact Number: " + getContactnumber());	
 	}
 	
-	public void updateCustomerDetails(String customerName, long contactnumber)
+	public void updateCustomerDetails(String customerName)
 	{
 		setCustname(customerName);
-		setContactnumber(contactnumber);
 		System.out.println("Customer Details Updated Successfully.");
 		System.out.println("Updated Customer Name: " + getCustname());
+	
+	}
+	
+	public void updateCustomerDetails(long contactnumber)
+	{
+		setContactnumber(contactnumber);
+		System.out.println("Customer Details Updated Successfully.");
 		System.out.println("Updated Contact Number: " + getContactnumber());	
 		
 	}
