@@ -6,6 +6,10 @@ public abstract class Car
 	    abstract void start();
 	    abstract void stop();
 	    abstract void accelerate();
+	    public  void django()
+	    {
+	    	
+	    }
 	
 }
 /*
