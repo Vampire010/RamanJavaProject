@@ -19,6 +19,20 @@ public class Customer
 		System.out.println("*****************************Parametraized***********************************");
 	}*/
 	
+	public Customer(String cname, String ctId,long cnumber)
+	{
+		
+		Custname=cname;	
+		Custid=ctId;		
+		contactnumber=cnumber;
+		
+		
+		System.out.println("Customer Name: " + Custname);
+		System.out.println("Customer ID: " + Custid);		
+		System.out.println("Contact Number: " + contactnumber);	
+	}
+	
+	
 	public String getCustname()
 	{
 		return Custname;
